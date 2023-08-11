@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'yasin-2';
+    src: url('./Shabnam-Light.eot') format('eot') , url('./Shabnam-Light.woff') format('woff') ,
+     url('./Shabnam-Light.woff2') format('woff2');
+}
+
+body{
+    font-family: 'yasin-2';
+    background-color: rgb(116, 22, 22);
+
+}
+
+.container{
+    background-color: rgb(17, 0, 255);
+    /* width: 300px; height: 300px; */
+    display: grid;
+    grid-template-columns:  repeat(10, 1fr);
+    grid-template-rows: 130vh repeat(4 , 1fr);
+    background-image: linear-gradient(to left , orange , rgb(207, 194, 150) ) , url('./Untitled.png');
+}
+
+.full-sign{
+    grid-column: 2/10;
+    display: grid;
+    grid-template-columns:  repeat(6, 1fr);
+    grid-template-rows:  repeat(4 , 1fr);
+    background-color: rgb(255, 255, 255);
+    height: 95vh;
+    margin-top: 70px;
+    border-radius: 20px;
+    
+}
+
+.pic{
+    grid-column: 1/4;
+    grid-row: 1/5;
+    background-image: url('./food.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    opacity:0.;
+
+}
+
+.inform{
+    grid-column: 4/7;
+    grid-row: 1/5;
+    background-color: rgb(24, 22, 22);
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    
+}
+
+.well{
+    color: aliceblue;
+    text-align: center;
+    grid-column: 1/5;
+    margin-top: 40px;
+    font-family: 'yasin-2';
+    font-size: 30px;
+    grid-row: 1/2;
+
+}
+
+.del{
+    color: orange;
+    text-align: center;
+    grid-column: 1/5;
+    margin-top: 85px;
+    font-family: 'yasin-2';
+    font-size: 30px;
+    grid-row: 1/2;
+    
+}
+
+.login{
+    color: aliceblue;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 22px;
+    margin-right: 51px;
+}
+
+.login-link{
+    color: orange;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 138px;
+    
+}
+
+.personal{
+    width: 90px;
+    height: 30px;
+    border: 5px  white;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    border: 1px solid white;
+    margin-top: 96px;
+    margin-left: 49px;
+    text-align: left;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+
+.pers{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: center;
+    /* size: 1px; */
+    width: 16px;
+    margin-top: 95px;
+    margin-left: 54px
+}
+
+.label-pers{
+    color: aliceblue;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: -16px;
+}
+
+.label-bis{
+    color: aliceblue;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: -16px;
+    border: 5px white
+
+}
+
+.bis{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: center;
+    /* size: 1px; */
+    width: 16px;
+    margin-top: 95px;
+    margin-left: 354px;
+    
+}
+
+
+
+.bisnes{
+    width: 90px;
+    height: 30px;
+    border: 5px  white;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    border: 1px solid white;
+    margin-top: 96px;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+
+.personal:hover{
+    border-color: orange;
+    cursor:pointer;
+}
+
+
+
+.bisnes:hover{
+    border-color: orange;
+    cursor:pointer;
+}
+
+.mailbox{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-left: 145px;
+    margin-top: 45px;
+    border-radius: 55px solid white;
+    
+}
+
+.passbox{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-left: 145px;
+    margin-top: 90px;
+    border-radius: 55px solid white;
+    
+}
+
+.pass{
+    width: 200px; height: 35px;
+    border-radius: 15px;
+    background-color:  rgb(24, 22, 22);
+    border: 2px solid orange; 
+    color: aliceblue;
+}
+
+.email{
+    width: 200px; height: 35px;
+    border-radius: 15px;
+    background-color:  rgb(24, 22, 22);
+    border: 2px solid orange;
+    color: aliceblue;
+}
+
+.phone{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-left: 145px;
+    margin-top: 135px;
+    border-radius: 55px solid white;
+}
+
+.num{
+    width: 200px; height: 35px;
+    border-radius: 15px;
+    background-color:  rgb(24, 22, 22);
+    border: 2px solid orange;
+    color: aliceblue;
+}
+
+.but{
+    grid-row: 4/5;
+    grid-column: 1/5;
+    width: 200px; height: 35px;
+    margin-left: 145px;
+    margin-top: 35px;
+    border-radius: 16px;
+    background-color: rgb(57, 177, 41);
+    border: 1px solid black;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.but:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

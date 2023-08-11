@@ -238,7 +238,7 @@ body{
 .service{
     background-color: rgb(255, 255, 255);
     grid-column: 2 / 6;
-    margin-top:10px;
+    margin-top:15px;
 
 }
 
@@ -247,7 +247,7 @@ body{
 }
 
 .service div{
-   margin-top:5px; 
+   margin-top:10px; 
 }
 
 .services-image{

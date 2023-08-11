@@ -238,6 +238,7 @@ body{
 .service{
     background-color: rgb(255, 255, 255);
     grid-column: 2 / 6;
+    margin-top:50px;
 
 }
 

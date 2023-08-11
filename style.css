@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: 'yasin-2';
-    src: url('./Shabnam-Light.eot') format('eot') , url('./Shabnam-Light.woff') format('woff') ,
-     url('./Shabnam-Light.woff2') format('woff2');
+    src: url('Shabnam-Light.eot') format('eot') , url('Shabnam-Light.woff') format('woff') ,
+     url('Shabnam-Light.woff2') format('woff2');
 }
 
 body{

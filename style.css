@@ -31,7 +31,7 @@ body{
     background-color: #000;
     grid-column: 1 / 7;
     color: #fff;
-    background-image: linear-gradient(to right , #5757574f , #000) , url('ls.jpg');
+    background-image: linear-gradient(to right , #5757574f , #000) , url('head.jpg');
     background-size: cover;
     display: grid;
     grid-template-rows: repeat(3 , min-content);
